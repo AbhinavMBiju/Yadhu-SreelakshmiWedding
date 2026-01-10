@@ -1,13 +1,12 @@
 import { motion } from "motion/react";
 import { useState } from "react";
 import { X } from "lucide-react";
-import y5 from "../../images/yadhu5.jpeg";
-import y1 from "../../images/yadhu1.jpeg";
-import y2 from "../../images/yadhu2.jpeg";
-import y3 from "../../images/yadhu3.jpeg";
-import y6 from "../../images/yadhu6.jpeg";
-import y7 from "../../images/yadhu7.jpeg";
-import y9 from "../../images/yadhu9.jpeg";
+import y5 from "../../images/yadhu15.jpg";
+import y2 from "../../images/yadhu17.jpg";
+import y3 from "../../images/yadhu16.jpg";
+import y6 from "../../images/yadhu14.jpg";
+import y7 from "../../images/yadhu11.JPG";
+import y9 from "../../images/yadhu12.jpg";
 
 
 export function PhotoGallerySection() {

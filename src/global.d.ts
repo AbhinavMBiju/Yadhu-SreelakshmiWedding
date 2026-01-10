@@ -32,7 +32,13 @@ declare module "react/jsx-runtime" {
 }
 
 // Allow importing common image formats from modules in `src`.
+// Support both lowercase and uppercase extensions to accommodate differing
+// file naming and OS case sensitivity quirks (e.g. `yadhu11.JPG`).
 declare module "*.jpg" {
+  const src: string;
+  export default src;
+}
+declare module "*.JPG" {
   const src: string;
   export default src;
 }
@@ -40,11 +46,23 @@ declare module "*.jpeg" {
   const src: string;
   export default src;
 }
+declare module "*.JPEG" {
+  const src: string;
+  export default src;
+}
 declare module "*.png" {
   const src: string;
   export default src;
 }
+declare module "*.PNG" {
+  const src: string;
+  export default src;
+}
 declare module "*.svg" {
+  const src: string;
+  export default src;
+}
+declare module "*.SVG" {
   const src: string;
   export default src;
 }
